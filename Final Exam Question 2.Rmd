@@ -22,7 +22,7 @@ library(readr)
 europa_df <- read_csv("https://marievozanne.github.io/europa_df.csv")
 ```
 
-### In addition to studying relationship between companion height and color, as in Problem 1, the researchers are also interested in determining whether body surface temperature is related to height. 
+### In addition to studying relationship between companion height and color, as in Problem 1, the researchers are also interested in determining whether body surface temperature is related to height.
 
 #### (a) Create an appropriate plot to examine the relationship between animal companion height, temperature, and color. Based on your plot, do you think an additive model or a model with interactions would be more appropriate?
 
@@ -40,5 +40,9 @@ europa_df <- read_csv("https://marievozanne.github.io/europa_df.csv")
 
 
 #### (e) Based on your answer in (c), find and interpret a 95% confidence interval for the difference between mean companion height for red versus orange companions. Be sure to interpret the interval in the context of the problem and include a statement of what is meant by 95%.
+
+
+
+#### (f) This is clearly a fictional data set, but write a sentence or two justifying the relationship you found (based on (c)) between animal companion body surface temperature and height. Hint: Think about energy - it is needed both to produce heat and to grow.
 
 
